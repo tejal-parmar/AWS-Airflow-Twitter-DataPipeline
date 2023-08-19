@@ -1,0 +1,24 @@
+# To install libraries in python in local machine:
+pip install pandas
+pip install tweepy
+pip install s3fs
+
+# To connect to EC2 instance
+ssh -i "airflow_test_key_tz.pem" ubuntu@ec2-35-183-10-143.ca-central-1.compute.amazonaws.com
+
+# To install required modules in EC2
+sudo apt-get update
+sudo apt install python3-pip
+sudo pip install apache-airflow
+sudo pip install pandas
+sudo pip install s3fs
+sudo pip install tweepy
+
+# To run airflow in EC2
+airflow standalone
+
+# airflow commands in EC2
+sudo nano airflow.cfg
+
+
+

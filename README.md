@@ -1,4 +1,4 @@
-# twitter-airflow-aws-datapipeline
+# AWS-Airflow-Twitter-DataPipeline
 End-to-end Data Engineering project 
   Task1 - Extract data from Twitter API using tweepy
   Task2 - Transform data using Python pandas
@@ -14,8 +14,8 @@ Python libraries
   - Pandas: to work with the data and transform the data
 
 Apache Airflow
-  - deploy the code onto airflow,
-  - an open source workflow management platform for data engineering pipelines.
+  - Deploy the code onto airflow,
+  - An open source workflow management platform for data engineering pipelines.
   - It is  workflow orchestration tool to build, schedule, monitor data pipelines.
   - Workflow is sequence of every task, in Airflow it is defined as Directed Cyclic Graph (DAG).(sequence of operations is called DAG).
   - Airflow contains multiple DAGs, and each DAG can contain multiple tasks, task is the unit of operation.

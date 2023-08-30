@@ -1,5 +1,5 @@
 # AWS-Airflow-Twitter-DataPipeline
-End-to-end Data Engineering project 
+End-to-end Data Engineering project
   - Task1 - Extract data from Twitter API using tweepy
   - Task2 - Transform data using Python pandas
   - Task3 - Deploy the code on Airflow/EC2

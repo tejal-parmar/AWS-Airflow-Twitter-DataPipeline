@@ -5,6 +5,8 @@ End-to-end Data Engineering project
   Task3 - Deploy the code on Airflow/EC2
   Task4 - Save data in AWS S3 bucket
 
+## Workflow
+![DataPipeline](https://github.com/tejal-parmar/AWS-Airflow-Twitter-DataPipeline/assets/111147531/8c7d5641-dddf-423e-a26d-3449c2c83408)
 
 Extracting data from Twitter
   - API credentials from Twitter Development platform
